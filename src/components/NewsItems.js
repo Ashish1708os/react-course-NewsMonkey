@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import monkeyImage from "./monkey-image.jpg";
 
 export class NewsItems extends Component {
   render() {
@@ -8,11 +9,7 @@ export class NewsItems extends Component {
       <div className="my-3 mx-1">
         <div className="card">
           <img
-            src={
-              imageUrl
-                ? imageUrl
-                : "https://previews.123rf.com/images/ahsanalvi/ahsanalvi2001/ahsanalvi200100447/138426453-monkey-logo-design-monkey-vector-icon-animal-illustration.jpg"
-            }
+            src={imageUrl ? imageUrl : monkeyImage}
             className="card-img-top"
             alt="newsImage"
           />
