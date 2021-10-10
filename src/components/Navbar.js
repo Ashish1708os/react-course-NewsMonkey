@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 // import PropTypes from 'prop-types'
 
 export class Navbar extends Component {
-  // static propTypes = {
-
-  // }
-
   render() {
     return (
       <div>
@@ -48,8 +44,8 @@ export class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    exact
-                    key="entertainment"
+                    // exact
+                    // key="entertainment"
                     className="nav-link"
                     to="/entertainment"
                   >
