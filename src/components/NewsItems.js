@@ -16,7 +16,7 @@ export class NewsItems extends Component {
           <div className="card-body">
             <h5 className="card-title">
               {title}{" "}
-              <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
+              <span className="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
                 {source}
               </span>
             </h5>
